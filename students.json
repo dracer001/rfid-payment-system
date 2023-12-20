@@ -1,0 +1,614 @@
+{
+    "C32B6CC5": {
+        "name": "Maryblessing Oyiza Onumanyi",
+        "matric-no": "2017/1/66459CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610009",
+        "card-id": "C32B6CC5"
+    },
+    "2": {
+        "name": "Solomon Yakubu",
+        "matric-no": "2017/1/64846CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610016",
+        "card-id": "CM275T54"
+    },
+    "63F690F5": {
+        "name": "Kelvin Omata Bala",
+        "matric-no": "2017/1/66484CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610023",
+        "card-id": "63F690F5"
+    },
+    "4": {
+        "name": "King Olumakinde Korter",
+        "matric-no": "2017/1/66467CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610030",
+        "card-id": "CM275T54"
+    },
+    "5": {
+        "name": "Bemshima Emmanuel Peter",
+        "matric-no": "2017/1/66491CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610037",
+        "card-id": "CM275T54"
+    },
+    "6": {
+        "name": "Chukwuemeka Franklin Dike",
+        "matric-no": "2017/1/66475CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610044",
+        "card-id": "CM275T54"
+    },
+    "7": {
+        "name": "Samuel Amedu",
+        "matric-no": "2017/1/66483CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610051",
+        "card-id": "CM275T54"
+    },
+    "8": {
+        "name": "Toyibu Olaniyi Abidogun",
+        "matric-no": "2017/1/69044CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610058",
+        "card-id": "CM275T54"
+    },
+    "9": {
+        "name": "Joshua Chukwuemeka Odigbo",
+        "matric-no": "2017/1/65656CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610065",
+        "card-id": "CM275T54"
+    },
+    "10": {
+        "name": "Jeremiah Igbinedion",
+        "matric-no": "2017/1/66460CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610072",
+        "card-id": "CM275T54"
+    },
+    "11": {
+        "name": "Abdulmalik Usman",
+        "matric-no": "2017/1/66478CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610079",
+        "card-id": "CM275T54"
+    },
+    "12": {
+        "name": "Bright Emeni",
+        "matric-no": "2017/1/66471CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610086",
+        "card-id": "CM275T54"
+    },
+    "13": {
+        "name": "Enoch Oluwaseyi Adegunlola",
+        "matric-no": "2017/1/66469CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610093",
+        "card-id": "CM275T54"
+    },
+    "14": {
+        "name": "Freeman Oluwakamiye Adebayo",
+        "matric-no": "2017/1/66486CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610100",
+        "card-id": "CM275T54"
+    },
+    "15": {
+        "name": "Nanjwan Francis Dadet",
+        "matric-no": "2017/1/66501CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610107",
+        "card-id": "CM275T54"
+    },
+    "16": {
+        "name": "Gbanga Joseph Abayomi",
+        "matric-no": "2017/1/66464CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610114",
+        "card-id": "CM275T54"
+    },
+    "17": {
+        "name": "Orevaoghene Daniel Akpiche",
+        "matric-no": "2017/1/66465CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610121",
+        "card-id": "CM275T54"
+    },
+    "18": {
+        "name": "Abdullahi Mujaheed Aliyu",
+        "matric-no": "2017/1/66476CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610128",
+        "card-id": "CM275T54"
+    },
+    "19": {
+        "name": "Godswill Akpanvan Nasara",
+        "matric-no": "2017/1/66458CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610135",
+        "card-id": "CM275T54"
+    },
+    "20": {
+        "name": "Peter Olorunjuwonlo Toluhi",
+        "matric-no": "2017/1/66482CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610142",
+        "card-id": "CM275T54"
+    },
+    "21": {
+        "name": "Christiana Omonola",
+        "matric-no": "2017/1/66463CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610149",
+        "card-id": "CM275T54"
+    },
+    "22": {
+        "name": "Christian Eneojo Aromeh",
+        "matric-no": "2017/1/66461CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610156",
+        "card-id": "CM275T54"
+    },
+    "23": {
+        "name": "Sophia Damilola Adeleke",
+        "matric-no": "2017/1/66487CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610163",
+        "card-id": "CM275T54"
+    },
+    "24": {
+        "name": "Israel Adedolapo Adegoke",
+        "matric-no": "2017/1/65658CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610170",
+        "card-id": "CM275T54"
+    },
+    "25": {
+        "name": "Timothy Harami Adamu",
+        "matric-no": "2017/1/65657CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610177",
+        "card-id": "CM275T54"
+    },
+    "26": {
+        "name": "Onimisi Muhammed Audu",
+        "matric-no": "2018/2/74038CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610184",
+        "card-id": "CM275T54"
+    },
+    "27": {
+        "name": "Monsur Oluwatobi Ayoola",
+        "matric-no": "2018/2/74036CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610191",
+        "card-id": "CM275T54"
+    },
+    "28": {
+        "name": "ABAH GABRIEL E.",
+        "matric-no": "2016/1/59396CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610198",
+        "card-id": "CM275T54"
+    },
+    "29": {
+        "name": "Barine Divine Gordon-Mmeo",
+        "matric-no": "2017/1/66473CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610205",
+        "card-id": "CM275T54"
+    },
+    "30": {
+        "name": "Somerset Christopher Ishe",
+        "matric-no": "2017/1/68080CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610212",
+        "card-id": "CM275T54"
+    },
+    "31": {
+        "name": "Martins Samuel Brengshak",
+        "matric-no": "2017/1/66462CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610219",
+        "card-id": "CM275T54"
+    },
+    "32": {
+        "name": "Nandi Achu Nandi",
+        "matric-no": "2017/1/64847CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610226",
+        "card-id": "CM275T54"
+    },
+    "33": {
+        "name": "Daniel Jesupamilerin Ajiboye",
+        "matric-no": "2018/2/74034CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610233",
+        "card-id": "CM275T54"
+    },
+    "34": {
+        "name": "Rahab Atsemewa Yusuf",
+        "matric-no": "2017/1/66494CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610240",
+        "card-id": "CM275T54"
+    },
+    "35": {
+        "name": "Peter Ifeanyichukwu Eze",
+        "matric-no": "2017/1/66513CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610247",
+        "card-id": "CM275T54"
+    },
+    "36": {
+        "name": "Abdulrahman Tatabu Abdullahi",
+        "matric-no": "2017/1/66481CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610254",
+        "card-id": "CM275T54"
+    },
+    "37": {
+        "name": "Chibuike Goodluck Oruche",
+        "matric-no": "2017/1/66470CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610261",
+        "card-id": "CM275T54"
+    },
+    "38": {
+        "name": "Pius Amos",
+        "matric-no": "2017/1/66480CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610268",
+        "card-id": "CM275T54"
+    },
+    "39": {
+        "name": "Samuel Onuche Ameh",
+        "matric-no": "2017/1/69083CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610275",
+        "card-id": "CM275T54"
+    },
+    "40": {
+        "name": "Samuel Odunayo Akangbe",
+        "matric-no": "2018/2/74032CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610282",
+        "card-id": "CM275T54"
+    },
+    "41": {
+        "name": "Justln Charles Adamu",
+        "matric-no": "2017/1/69116CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610289",
+        "card-id": "CM275T54"
+    },
+    "42": {
+        "name": "Micheal Chinonso Inji",
+        "matric-no": "2017/1/66498CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610296",
+        "card-id": "CM275T54"
+    },
+    "43": {
+        "name": "Daniel Ochoja",
+        "matric-no": "2017/1/66492CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610303",
+        "card-id": "CM275T54"
+    },
+    "44": {
+        "name": "Erma Shallom Tat",
+        "matric-no": "2017/1/66466CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610310",
+        "card-id": "CM275T54"
+    },
+    "45": {
+        "name": "Michael Junior Agom",
+        "matric-no": "2017/1/66493CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610317",
+        "card-id": "CM275T54"
+    },
+    "46": {
+        "name": "Ayodele Whyte Daniel",
+        "matric-no": "2017/1/67718CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610324",
+        "card-id": "CM275T54"
+    },
+    "47": {
+        "name": "Amina Oje",
+        "matric-no": "2017/1/68928CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610331",
+        "card-id": "CM275T54"
+    },
+    "48": {
+        "name": "Patience Pmishekwo Paul-Musa",
+        "matric-no": "2017/1/66504CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610338",
+        "card-id": "CM275T54"
+    },
+    "49": {
+        "name": "Dare Joseph Salami",
+        "matric-no": "2017/1/66489CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610345",
+        "card-id": "CM275T54"
+    },
+    "50": {
+        "name": "Emmanuel Trust Afolayan",
+        "matric-no": "2017/1/66472CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610352",
+        "card-id": "CM275T54"
+    },
+    "51": {
+        "name": "Mary-Peace Enamo Ochaje",
+        "matric-no": "2017/1/66474CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610359",
+        "card-id": "CM275T54"
+    },
+    "52": {
+        "name": "Joshua Ojonugwa Oguche",
+        "matric-no": "2017/1/66485CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610366",
+        "card-id": "CM275T54"
+    },
+    "53": {
+        "name": "Joshua Tamara Egberibo",
+        "matric-no": "2017/1/66512CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610373",
+        "card-id": "CM275T54"
+    },
+    "54": {
+        "name": "Abdulazeez Ayobami Adeyemo",
+        "matric-no": "2018/2/74033CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610380",
+        "card-id": "CM275T54"
+    },
+    "FA321A76": {
+        "name": "Ademola Olaitan Ogunle",
+        "matric-no": "2018/2/74035CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610387",
+        "card-id": "FA321A76"
+    },
+    "56": {
+        "name": "Abdulrasheed Salihu Musa",
+        "matric-no": "2017/1/66490CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610394",
+        "card-id": "CM275T54"
+    },
+    "57": {
+        "name": "Grace Yusufu Abashe",
+        "matric-no": "2017/1/66479CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610401",
+        "card-id": "CM275T54"
+    },
+    "58": {
+        "name": "Othniel Eggah Emmanuel",
+        "matric-no": "2017/1/66495CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610408",
+        "card-id": "CM275T54"
+    },
+    "59": {
+        "name": "James Kulukpare Mcdaniel",
+        "matric-no": "2017/1/66497CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610415",
+        "card-id": "CM275T54"
+    },
+    "60": {
+        "name": "Muhammad Sa'ad Adamu",
+        "matric-no": "2017/1/66505CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610422",
+        "card-id": "CM275T54"
+    },
+    "61": {
+        "name": "Ayanajeh David Shekwaga",
+        "matric-no": "2017/1/66477CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610429",
+        "card-id": "CM275T54"
+    },
+    "62": {
+        "name": "Elijah Zanne Aaron",
+        "matric-no": "2016/1/61810CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610436",
+        "card-id": "CM275T54"
+    },
+    "63": {
+        "name": "Ayorinde Joshua Adeyemi",
+        "matric-no": "2018/2/74037CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610443",
+        "card-id": "CM275T54"
+    },
+    "64": {
+        "name": "Muhammad Arisekola Giwa",
+        "matric-no": "2017/1/67719CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610450",
+        "card-id": "CM275T54"
+    },
+    "65": {
+        "name": "Iliya Ishaya Dakwai",
+        "matric-no": "2017/1/66500CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610457",
+        "card-id": "CM275T54"
+    },
+    "66": {
+        "name": "Nengak Wisdom Dakup",
+        "matric-no": "2017/1/66499CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610464",
+        "card-id": "CM275T54"
+    },
+    "67": {
+        "name": "Elijah Gaphchong Zaman",
+        "matric-no": "2016/1/61822CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610471",
+        "card-id": "CM275T54"
+    },
+    "68": {
+        "name": "Suliat Titilope Abubakar",
+        "matric-no": "2018/2/74040CP",
+        "payment-status": "Not Paid",
+        "balance": 0,
+        "level": "500",
+        "student-id": "M1610478",
+        "card-id": "CM275T54"
+    }
+}

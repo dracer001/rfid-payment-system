@@ -1,0 +1,22 @@
+<table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        <th scope="col">Data-Time</th>
+        <th scope="col">Transaction Id</th>
+        <th scope="col">Card Id</th>
+        <th scope="col">Matric No</th>
+        <th scope="col">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for transaction in info %}
+      <tr>
+        <td>{{transaction['time']}}</td>
+        <td>{{transaction['transaction-id']}}</td>
+        <td>{{transaction['card-id']}}</td>
+        <td>{{transaction['matric-no']}}</td>
+        <td>{{transaction['status']}}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>

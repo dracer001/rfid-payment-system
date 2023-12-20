@@ -1,0 +1,19 @@
+.container{
+    max-width: 650px;
+}
+
+.price{
+    width: 60%;
+}
+
+form.card{
+    margin-bottom: 1rem;
+}
+
+.submit{
+    margin-top: 1rem;
+}
+
+.profile-photo{
+border-radius: 50%;
+}

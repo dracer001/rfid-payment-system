@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css')}}"/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
+
+
+         <!-- Custom styles for this template -->
+      <link href="{{url_for('static', filename='css/signin.css')}}" rel="stylesheet"> 
+      <title>FUT-MINNA ONLINE PAYMENT</title>
+
+
+    </head>
+
+    <body>
+        <main class="form-signin text-center">
+            <form method="post", action="/login">
+              <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+              <p class="msg">{{msg}}</p>
+              <div class="form-floating">
+                <input type="text" class="form-control" id="floatingInput" placeholder="username" name="studentid" required>
+                <label for="floatingInput">Student Id</label>
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="matricno" required>
+                <label for="floatingPassword">Matric No</label>
+              </div>
+          
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+              <p>Sign in as <a href="/admin/login">admin</a></p>
+              <p class="mt-5 mb-3 text-muted">&copy; FUTMx Microfinance Bank</p>
+            </form>
+          </main>
+    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+    </body>
+</html>

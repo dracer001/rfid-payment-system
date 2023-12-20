@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head><html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css')}}"/>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/index.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/admin.css')}}">
+    <script src="{{url_for('static', filename='bootstrap.bundle.min.js')}}"></script>
+
+    <title>FUTMx ONLINE PAYMENT</title>
+</head>
+<body>
+  <header>
+    <div class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom company-details"> 
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <img src="{{url_for('static', filename='images/fut-logo.png')}}" alt="" class="bi me-2" width="40" height="32">
+            <span class="fs-4">Computer Engineering Payment System</span>
+          </a>
+      </div>
+      <div class="container-fluid nav-fluid">
+            <h2 class="navbar-brand">Admin Dashboard</h2>
+            <a type="button" class="btn btn-outline-primary btn-sm sign-out-btn">Sign Out</a>
+      </div> 
+  </header>
+    <main>
+      <div class="balance-container">
+        <div class="admin-balance">
+            <p>Total Balance:</p>
+            <p><span style="color: rgb(99, 199, 0); font-weight: bold;">N</span> {{admin_info['balance']}}</p>
+        </div>
+      </div>
+      <div class="history-database">
+        <h2 type="button" class="btn btn-link" id="payment" onclick="toggleData(this);">Payment History</h2>
+        <h2 type="button" class="btn btn-link" id="database" onclick="toggleData(this);">Students Databse</h2>
+      </div>
+
+        <nav class="navbar navbar-light bg-light">
+          <div class="container-fluid">
+            <form class="d-flex">
+              <input id="q" class="form-control me-2" type="search" placeholder="Search" aria-label="Search" onkeyup="searchData(this.value);">
+              <button class="btn btn-outline-success" type="submit" onclick="searchData(document.getElementById('q').value); return false">Search</button>
+            </form>
+          </div>
+        </nav>
+        <div class="table-responsive" id="history">
+      </div>
+    </main>
+
+    <script src="{{url_for('static', filename='admin.js')}}"></script>
+</body>
+</html>

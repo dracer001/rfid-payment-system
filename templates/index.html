@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<head><html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css')}}"/>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/index.css')}}">
+    <script src="{{url_for('static', filename='bootstrap.bundle.min.js')}}"></script>
+    <title>FUTMx ONLINE PAYMENT</title>
+</head>
+<body>
+    <header>
+      <div class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom company-details"> 
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+              <img src="{{url_for('static', filename='images/fut-logo.png')}}" alt="" class="bi me-2" width="40" height="32">
+              <span class="fs-4">Computer Engineering Payment System</span>
+            </a>
+        </div>
+        <div class="container-fluid nav-fluid">
+              <h2 class="navbar-brand">Dashboard</h2>
+
+              <div class="dropdown text-end">
+                <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="{{url_for('static', filename='images/profile.jpg')}}" alt="mdo" width="32" height="32" class="rounded-circle">
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="/payment">Deposite</a></li>
+                    <li><a class="dropdown-item" href="./sign-out">Sign Out</a></li>
+                </ul>
+              </div>
+        </div> 
+    </header>
+    
+    <main>
+        <div class="main">
+            <div class="profile-pic">
+                <img src="{{url_for('static', filename='images/profile.jpg')}}" alt="">
+            </div>
+            <div class="container user-details">
+                <ul class="list-group mb-3">
+                    <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                        <p class="my-0">Name: <b>{{user_info['name']}}</b></p>
+                    </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                        <p class="my-0">Student Id: <b>{{user_info['student-id']}}</b></p>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                        <p class="my-0">Matric No: <b>{{user_info['matric-no']}}</b></p>
+                    </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                            <p class="my-0">Level: <b>{{user_info['level']}}</b></p>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                        <p class="my-0">Card Id: <b>{{user_info['card-id']}}</b></p>
+                    </div>
+                    </li>
+                </ul>
+                <div class="account">
+                    <div>
+                        <p>Balance:</p>
+                        <p><span style="color: rgb(99, 199, 0); font-weight: bold;">N</span> {{user_info['balance']}}</p>
+                    </div>
+                    <div>
+                        <p>Status</p>
+                        {% if user_info['payment-status'].lower() == 'paid'%}
+                        <p style="color:rgb(0, 255, 21);">{{user_info['payment-status']}}</p>
+                        {%else%}
+                        <p style="color:red;">{{user_info['payment-status']}}</p>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="payment">
+                    <a href="\payment" type="button" class="btn btn-outline-primary payment-btn">Credit Account</a>
+                </div>
+            </div>
+
+
+        </div>
+        
+        <div class="row mb-2 news-container">
+            <h2>Latest Departmental News</h2>
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-primary">World</strong>
+                  <h3 class="mb-0">Featured post</h3>
+                  <div class="mb-1 text-muted">Nov 12</div>
+                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-success">Design</strong>
+                  <h3 class="mb-0">Post title</h3>
+                  <div class="mb-1 text-muted">Nov 11</div>
+                  <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-primary">World</strong>
+                  <h3 class="mb-0">Featured post</h3>
+                  <div class="mb-1 text-muted">Nov 12</div>
+                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-success">Design</strong>
+                  <h3 class="mb-0">Post title</h3>
+                  <div class="mb-1 text-muted">Nov 11</div>
+                  <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-success">Design</strong>
+                  <h3 class="mb-0">Post title</h3>
+                  <div class="mb-1 text-muted">Nov 11</div>
+                  <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-success">Design</strong>
+                  <h3 class="mb-0">Post title</h3>
+                  <div class="mb-1 text-muted">Nov 11</div>
+                  <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+</body>
+</html>

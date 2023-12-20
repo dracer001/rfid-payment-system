@@ -1,0 +1,22 @@
+<table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        <th scope="col">rfid</th>
+        <th scope="col">Student Id</th>
+        <th scope="col">Matric No</th>
+        <th scope="col">Level</th>
+        <th scope="col">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for data in database %}
+      <tr>
+        <td>{{data['card-id']}}</td>
+        <td>{{data['student-id']}}</td>
+        <td>{{data['matric-no']}}</td>
+        <td>{{data['level']}}</td>
+        <td>{{data['payment-status']}}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>

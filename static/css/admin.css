@@ -1,0 +1,32 @@
+.sign-out-btn{
+    margin-top: -10px;
+}
+
+.balance-container{
+    display: flex;
+    justify-content: center;
+}
+.admin-balance{
+    background-color: #727272;
+    color: white;
+    display: inline-block;
+    padding: 25px;
+    border-radius: 10px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.history-database{
+    display: flex;
+    gap: 2rem;
+}
+
+.history-database h2{
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+/* 
+#payment {
+    text-decoration: none;
+    color: #0d6efd;
+} */

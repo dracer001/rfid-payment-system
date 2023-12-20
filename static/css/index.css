@@ -1,0 +1,118 @@
+
+header{
+    border-bottom: 1px solid #727272;
+}
+
+.company-details{
+    background-color: #727272;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 0 20px;
+
+}
+
+.fs-4{
+    color: white;
+}
+
+.nav-fluid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: -10px;
+
+}
+
+main{
+    padding: 20px;
+}
+
+.main{
+    max-width: 500px;
+    margin: auto;
+}
+.dropdown-toggle img{
+    border-radius: 50%;
+    border: 1px double #727272;
+}
+
+.dropdown-toggle::after{
+    content: "";
+    display: inline-block;
+    margin-left: 0.2255em;
+    vertical-align: 0.2255em;
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+
+}
+.dropdown-menu{
+    text-align: right;
+    background: transparent;
+    min-width: auto;
+    border: none;
+    box-shadow: 1px 1px 2px #727272;
+}
+
+.active{
+    color: #727272;
+    /* font-weight: bold; */
+    font-size: 150%;
+}
+
+
+.profile-pic{
+    border-radius: 50%;
+    width: 80%;
+    max-width: 250px;
+    margin: 1rem auto;
+    border: 2px double #727272;
+    
+}
+
+.profile-pic img{
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+.user-details{
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.list-group *{
+    background: #f7f6f6;
+}
+.account{
+    display: flex;
+    justify-content: space-around;
+    background-color: #727272;
+    border-radius: 5px;
+}
+
+.account div{
+    color: white;
+    padding: 10px;
+}
+
+.account div p{
+    margin: 0;
+}
+
+.payment{
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.payment-btn{
+    font-weight: bold;
+}
+
+.news-container{
+    padding: 20px;
+}
