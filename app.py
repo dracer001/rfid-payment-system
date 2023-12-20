@@ -54,7 +54,7 @@ def index():
 def payment():
     if 'userid' in session:
         user_info = STUDENTDATA.read()[session['userid']]
-        user_info["userid"] = session['userid']
+        user_info["user-id"] = session['userid']
         return render_template('checkout.html', user_info=user_info)
     return redirect(url_for('index'))
 

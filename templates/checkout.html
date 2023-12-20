@@ -153,7 +153,7 @@ let price;
         matric: "2019/2/3456EM"
       },
       customer: {
-        email: "rose@futminna.edu.ng",
+        email: "{{user_info['name']}}@futminna.edu.ng",
         phone_number: "08102909304",
         name: "{{user_info['name']}}",
       },
@@ -169,7 +169,7 @@ let price;
      console.log(payment)
      console.log(payment.created_at)
     const xhttp = new XMLHttpRequest();
-    xhttp.open("POST", "/verify-transaction/1");
+    xhttp.open("POST", "/verify-transaction/{{user_info['user-id']}}");
     xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xhttp.send("amount="+payment.amount+"&transaction_id="+payment.transaction_id+"&time="+payment.created_at);
 
