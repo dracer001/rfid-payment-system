@@ -17,7 +17,7 @@ STUDENTDATA = DB("./students.json")
 ADMIN_DATA = DB("./admin-data.json")
 
 # payment_json = os.path.join(current_dir, 'payment.json')
-PAYMENT = DB("./payment.json")
+PAYMENT = DB("./payments.json")
 
 
 
