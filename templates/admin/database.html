@@ -15,7 +15,11 @@
         <td>{{data['student-id']}}</td>
         <td>{{data['matric-no']}}</td>
         <td>{{data['level']}}</td>
-        <td>{{data['payment-status']}}</td>
+        {% if user_info['payment-status'].lower() == 'paid'%}
+        <td style='color:green'>{{data['payment-status']}}</td>
+        {%else%}
+        <td style='color:red'>{{data['payment-status']}}</td>
+        {% endif %}
       </tr>
       {% endfor %}
     </tbody>
