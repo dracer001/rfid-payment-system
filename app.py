@@ -68,7 +68,7 @@ def adminDebit(userid):
         return "User Not Found"
 
     if user_info['balance'] - fee < 0:
-        return "insufficient fund"
+        return "Not Enough Found"
 
     user_info['balance'] -= fee
     user_info['payment-status'] = 'paid'
