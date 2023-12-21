@@ -109,7 +109,7 @@ def adminloginPage():
         email = request.form['email']
         password = request.form['password']
 
-        if email == 'microfinancebank@futminna.edu.ng' and password == 'futmx12345':
+        if email == 'cpeng@futminna.edu.ng' and password == 'futmx12345':
             session['admin-key'] = 'xyz'
             return redirect(url_for('adminPanel'))
 
